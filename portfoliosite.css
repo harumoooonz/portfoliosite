@@ -1,0 +1,148 @@
+body{
+   width: 100%;
+   margin:0;
+}
+
+/* ヘッダーFKV */
+#firstkeyvisual{
+   width:100%;
+}
+img{
+  width:100%;
+    height:auto;
+    vertical-align: middle;
+}
+
+
+/* introduce */
+#introduce{
+  /* height: px; */
+  background-color: beige;
+}
+.intro-top{
+  background-color: bisque;
+  height: 200px;
+  overflow: hidden;
+}
+.intro-top-face{
+  background-color: aquamarine;
+  float: left;
+  width: 40%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+.myface{
+  width:100px;
+  height:auto;
+  margin:auto;
+}
+.intro-top-name{
+  background-color: chocolate;
+  float: right;
+  width: 60%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+.intro-top-name-box{
+  width:80%;
+  margin:auto;
+}
+
+.intro-top-title{
+  width: 150px;
+  font-size: 30px;
+  margin:auto;
+}
+.intro-top-text{
+  text-align: center;
+  width:80%;
+  margin:0 auto;
+}
+
+.intro-bottom{
+   background-color: cadetblue;
+}
+.intro-bottom-keireki{
+  background-color: blueviolet;
+  margin:0 40px 10px 40px;
+  display: flex;
+  height:60px;
+}
+
+.intro-bottom-keireki:nth-child(3){
+  margin-bottom:0;
+}
+.intro-year{
+  background-color: beige;
+  width:40%;
+  text-align: center;
+  line-height:60px;
+}
+.intro-text{
+  background-color: cadetblue;
+}
+
+
+/* works */
+ul{
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  width:100%;
+}
+li{
+  list-style: none;
+  background-color:blue;
+  width:33.3%;
+
+}
+.work-window-box{
+  background-color: cornflowerblue;
+  height:200px;
+  display: flex;
+  align-items: center;
+}
+.work-window{
+  background-color: aquamarine;
+  height:150px;
+  width:200px;
+  margin:0 auto;
+}
+
+/* contact */
+#contact{
+  height: 200px;
+  background-color: blueviolet;
+}
+.contact-title{
+  background-color: azure;
+  height: 50px;
+  display: flex;
+text-align: center;
+}
+.contact-title p{
+  width:300px;
+  margin:auto;
+}
+.contact-icons{
+  background-color:bisque;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  margin:auto 0px;
+}
+.contact-icons img{
+  width:50px;
+  height:auto;
+}
+
+/* フッター */
+#footer{
+  background-color: crimson;
+  height: 50px;
+  text-align: center;
+}
